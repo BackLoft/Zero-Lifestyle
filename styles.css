@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    filter: brightness(0) invert(1) !important;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.logo img{
+    width: 103px;
+    height: 27.5px;
+}
+.navbar-list{
+    position: absolute;
+    color: white;
+    list-style: none;
+
+}
+.icons{
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    color: white;
+    right: -150px;
+    top: 15px;
+}
